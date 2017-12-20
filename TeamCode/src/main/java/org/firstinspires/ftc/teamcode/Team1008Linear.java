@@ -79,9 +79,26 @@ public class Team1008Linear extends LinearOpMode {
         waitForStart();
         runtime.reset();
 
+        int step = 0;
+        int[] steps = {0,1,2,3,4,5};
+
         // run until the end of the match (driver presses STOP)
         while (opModeIsActive()) {
 
+            switch (step) {
+                case 1: {
+
+                    break;
+                }
+                case 2: {
+
+                    break;
+                }
+                case 3: {
+
+                    break;
+                }
+            }
             // Setup a variable for each drive wheel to save power level for telemetry
             double leftPower;
             double rightPower;

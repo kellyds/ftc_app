@@ -54,6 +54,7 @@ import org.firstinspires.ftc.robotcontroller.external.samples.HardwareK9bot;
  */
 
 @TeleOp(name="K9bot: Telop Tank", group="K9bot")
+@Disabled
 public class TestTwo extends LinearOpMode {
 
     /* Declare OpMode members. */

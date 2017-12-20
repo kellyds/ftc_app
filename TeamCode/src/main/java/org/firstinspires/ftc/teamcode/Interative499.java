@@ -51,6 +51,7 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 @TeleOp(name="Basic: Iterative OpMode", group="Iterative Opmode")
+@Disabled
 public class Interative499 extends OpMode
 {
     // Declare OpMode members.
